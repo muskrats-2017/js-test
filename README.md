@@ -1,6 +1,6 @@
 # Cards
 
-Create a page that displays cards. Each card should have a title, a body and buttons to close or edit the card. We also need to have a form that allows users to add a card, setting the `title`, `body` and back ground color of new the card. Editing will alow the the user to change `title`, `body` and `background-color` of the selected card.
+Create a page that displays cards. Each card should have a title, a body and buttons to close or edit the card. We also need to have a form that allows users to add a card, setting the `title`, `body` and `background-color` of new the card. Editing will allow the the user to change `title`, `body` and `background-color` of the selected card.
 
 It is **required** to use jQuery and have a template for the cards.
 
