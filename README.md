@@ -11,4 +11,4 @@ Use the [`localStorage` API](https://developer.mozilla.org/en-US/docs/Web/API/Wi
 
 ## Resources
 * [Card UI example](https://static.dzone.com/dz1/dz-files/03-floating_layout.png)
-* [localStorage toturial](http://theshravan.net/blog/storing-json-objects-in-html5-local-storage/)http://theshravan.net/blog/storing-json-objects-in-html5-local-storage/
+* [localStorage toturial](http://theshravan.net/blog/storing-json-objects-in-html5-local-storage/)
