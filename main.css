@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#printout{
-	background-color: white;
-}
-=======
+
 body{
 	background-color: #D1D1D1
 }
@@ -37,7 +33,20 @@ nav h1{
 	text-indent: 1em;
 }
 
-#printout p{
-	font-size: 2em;
+.card {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 1em;
+  margin-top: 1em;
+  padding: .5em;
 }
->>>>>>> origin/lori
+
+.card-add {
+  background-color: black;
+}
+
+.card button.close {
+  float: right;
+}
+
