@@ -60,7 +60,7 @@ nav h1{
 
 .left { 
 	float: left;
-	width: 200px;
+	width: 300px;
 	
 	display: inline-block;
 	position: relative; 
@@ -69,7 +69,7 @@ nav h1{
 .right { 
 
 	float: right; 
-	width: 200px;
+	width: 300px;
 	
 	display: inline-block;
 	position: relative;  
