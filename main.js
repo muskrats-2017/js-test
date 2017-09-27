@@ -74,7 +74,7 @@ $(document).ready(function(){
 		$card.find('span.card-title').text(card.title);
 		$card.find('p.card-body').text(card.body);
 		$card.css('background-color', card.color);
-		$card.draggable({snap:".drag-area", grid: [ 25, 2 ], obstacle:".container", preventCollision: true, containment: "#printout" });
+		$card.draggable({snap:".drag-area", grid: [ 45, 1 ], obstacle:".container", preventCollision: true, containment: "#printout" });
 		$("#printout").append($card);
 	}
 
