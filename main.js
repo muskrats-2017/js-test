@@ -34,6 +34,41 @@ $(document).ready(function(){
 		updateCardStorage()
 	})
 
+	$main.on('click', '.card-edit', function(event){
+
+		var title89 = $(this).parents(".card").find('span.card-title').text()
+
+		console.log($(this).parents(".card"))
+		
+
+		console.log(cards)
+		
+		$(this).parents(".card").remove()
+
+		event.preventDefault();
+
+		var $form = $("#cardForm");
+
+		var card = {
+			title: $form.find('[name="name"]').val(),
+			body: $form.find('[name="body"]').val(),
+			color: $form.find('[name="color"]').val()
+		}
+
+		// inserting into a array
+
+		addCard(card);
+		cards.push(card)
+		
+
+		updateCardStorage()
+	
+
+		console.log("wee")
+
+
+	})
+
 	addCard = function(card) {
 		var $card = $(boxTemplate);
 		$card.find('span.card-title').text(card.title);
